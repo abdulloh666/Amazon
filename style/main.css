@@ -136,8 +136,9 @@ header .sign-in:hover {
 .hero .container {
   width: 80%;
   height: auto;
-  margin: auto;
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .categories {
@@ -151,6 +152,7 @@ header .sign-in:hover {
 .categories .container {
   width: 80%;
   height: auto;
+  align-content: center;
   margin: auto;
   margin-top: 20px;
 }
